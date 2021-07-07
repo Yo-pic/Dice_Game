@@ -17,4 +17,7 @@ for i in range(1, 3):
     print("Die {}:".format(i), lists[i - 1])
 
 print("Total Value:", sum(lists))
-
+if sum(lists) > 7:
+    print(greed + " won!")
+else:
+    print(greed + " lost!")
